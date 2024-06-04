@@ -63,11 +63,11 @@
         }
 
         .blue-button {
-            background-color: blue;
+            background-color: #0D6DB7;
         }
 
         .green-button {
-            background-color: green;
+            background-color: #8DC63F;
         }
 
         .button-container {
@@ -81,4 +81,59 @@
             margin: 0 5px;
             
         }
+
+ /* fst_section */
+ .fstSec_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+} 
+
+.text_contents {
+    width: 50%; /* Adjust as needed for your content */
+    margin-left: 50px;
+  }
+  
+  .fstSection_imgDiv {
+    width: 50%; /* Adjust as needed for the image */
+    margin-right: 50px;
+    margin-top: 20px;
+  }
+
+.div4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
 
