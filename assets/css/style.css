@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,9 +18,9 @@
     height: 20px; /* Set height */
 }
 
-/* dropdwonbutton */
+/* dropdown button */
     
-.dropdown:hover>.dropdown-menu {
+.dropdown:hover > .dropdown-menu {
     display: block;
     margin-top: 1px;
     box-shadow: 1px 3px 10px 1px rgb(208, 205, 205);
@@ -47,43 +47,42 @@
 /* Container Buttons */
 
 .button {
-            display: inline-block;
-            padding: 10px;
-            margin: 1px;
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            border: 1px solid blueviolet;
-            transition: transform 0.3s ease;
-            border-radius: 5px;
-        }
+    display: inline-block;
+    padding: 10px;
+    margin: 1px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid blueviolet;
+    transition: transform 0.3s ease;
+    border-radius: 5px;
+}
 
-        .button:hover {
-            transform: scale(1.1);
-        }
+.button:hover {
+    transform: scale(1.1);
+}
 
-        .blue-button {
-            background-color: #0D6DB7;
-        }
+.blue-button {
+    background-color: #0D6DB7;
+}
 
-        .green-button {
-            background-color: #8DC63F;
-        }
+.green-button {
+    background-color: #8DC63F;
+}
 
-        .button-container {
-            display: flex;
-            justify-content: space-between; /* Distribute buttons evenly */
-            align-items: center;
-            margin-right: 50px;
-        }
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Distribute buttons evenly */
+    align-items: center;
+    margin-right: 50px;
+}
 
-        .second_nav_links li {
-            margin: 0 5px;
-            
-        }
-
- /* fst_section */
- .fstSec_container {
+.second_nav_links li {
+    margin: 0 5px;
+}
+ 
+/* fst_section */
+.fstSec_container {
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -92,13 +91,13 @@
 .text_contents {
     width: 50%; /* Adjust as needed for your content */
     margin-left: 50px;
-  }
+}
   
-  .fstSection_imgDiv {
+.fstSection_imgDiv {
     width: 50%; /* Adjust as needed for the image */
     margin-right: 50px;
     margin-top: 20px;
-  }
+}
 
 .div4 {
     display: flex;
@@ -111,29 +110,108 @@
     padding-top: 20px;
 }
 
+/* btnS-section */
+div.btnS_section {
+    /* border: 1px solid black; */
+    width: 93%;
+    height: 100px;
+    padding: 30px;
+    background-color: #f2fddf;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
 
+div.btns {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
 
+div.calculated_btn span {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    font-size: 16px;
+}
+div.calculated_btn input {
+    padding: 5px;
+    margin: 5px;
+    /* border: none; */
+}
 
+div.four_btns {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+#btn1 button {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    margin-left: 75px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
 
+.btn11 {
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
 
+.btn11:hover {
+    background-color: #424242 !important;
+    color: white !important;
+    transform: scale(1.1);
+}
 
+.btn22 {
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
 
+.btn22:hover {
+    background-color: #424242 !important;
+    color: white !important;
+    transform: scale(1.1);
+}
 
+.btn33 {
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
 
+.btn33:hover {
+    background-color: #424242 !important;
+    color: white !important;
+    transform: scale(1.1);
+}
 
+.btn44 {
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
 
+.btn44:hover {
+    background-color: #424242 !important;
+    color: white !important;
+    transform: scale(1.1);
+}
 
+.btn55 {
+    background-color: #8DC63F !important;
+    color: white !important;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
 
-
-
-
-
-
-
-
-
-
-
-        
-
+.btn55:hover {
+    /* background-color: #424242 !important;
+    color: white !important; */
+    transform: scale(1.1);
+}
